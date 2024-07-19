@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Reflection;
 
 namespace WindowsDesktop.Interop
 {
-	internal class ComInterfaceAssembly
+    internal class ComInterfaceAssembly
 	{
 		private readonly Dictionary<string, Type> _knownTypes = new();
 		private readonly Assembly _compiledAssembly;

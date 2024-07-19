@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using WindowsDesktop.Interop.Proxy;
-using WindowsDesktop.Properties;
+﻿using WindowsDesktop.Interop.Proxy;
 
 namespace WindowsDesktop.Interop;
 
